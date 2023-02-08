@@ -92,6 +92,7 @@ select {
     font-family: GilroyLight;
     font-size: 2em;
 }
+
 /*END TYPO*/
 
 /*GLOBAL*/
@@ -130,7 +131,7 @@ header{
     padding: 3em;
 }
 .w-color{
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(24, 24, 24);
 
 }
 a{
@@ -152,10 +153,22 @@ a{
 }
 .page-nr{
     margin-right: 15px;
-    border-bottom: 1px solid white; 
+    border-bottom: 0.1px solid white; 
 }
 .nr-active{
     border-bottom: 1px solid #c6a15b;
+    padding-right: 3em;
+}
+.p-head{
+  margin-left: 8em;
+}
+.p-r{
+  margin-left: 3em;
+}
+.name{
+  color: #d6d6d6 ;
+  text-align: right;
+  margin-top: 3em;
 }
 /*END GLOBAL*/
 /*MAIN*/
@@ -221,5 +234,37 @@ a{
     text-decoration: line;
 }
 
+.paintings-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+.painting{
+  height: 490px;
+  width: 352px;
+  
+}
+.pain{
+  height: 440px;
+  width: 337px;
+  
+}
+.pain-a{
+  height: 440px;
+  width: 370px;
+}
+.pask{
+  color: #d6d6d6 ;
+}
+.final{
+  font-size: 13em;
+  color: rgb(53, 53, 53);
+}
+.final-mask{
+
+}
 
 /*END MAIN*/
