@@ -130,6 +130,12 @@ header{
     margin: 0 auto;
     padding: 3em;
 }
+.wrapper2{
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3em;
+}
 .w-color{
     background-color: rgb(24, 24, 24);
 
@@ -170,6 +176,10 @@ a{
   text-align: right;
   margin-top: 3em;
 }
+.push{
+  margin-top: 5em;
+}
+
 /*END GLOBAL*/
 /*MAIN*/
 
@@ -186,11 +196,19 @@ a{
     margin-top: 1em;  
 }
 .skull{
-    margin-bottom: 3em;
-    
-    height:800px;
-    width:600px;
-    
+  height: 59em;
+  width: 39em;
+  top: 3%;
+}
+.tri{
+  color: #c6a15b;
+  position: absolute;
+  height: 56em;
+  width: 72em;
+  left: 30%;
+  top: 0.1%;
+  z-index: -1;
+  
 }
 
 .side-menu{
@@ -256,6 +274,10 @@ a{
   height: 440px;
   width: 370px;
 }
+.bust{
+  height: 49em;
+  width: 39em
+}
 .pask{
   color: #d6d6d6 ;
 }
@@ -264,7 +286,10 @@ a{
   color: rgb(53, 53, 53);
 }
 .final-mask{
-
+ background: url(/assets/Gold.png) 0 0 / cover no-repeat;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ color: #de466c;
+ margin-bottom: 1em;
 }
-
 /*END MAIN*/
